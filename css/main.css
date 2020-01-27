@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 800;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
+.header{
+  width: 100vw;
+  height: 15vh;
+  display: block;
+}
+
+.header h1{
+  position: relative;
+  font-size: 500%;
+
+  margin-top: 5vh;
+  margin-left: 20vw;
+}
+
+.header h2{
+  position: relative;
+  font-size: 200%;
+
+  margin-top: -6vh;
+  margin-left: 40vw;
+}
+
+.projects{
+  position: relative;
+  width: 15vw;
+  height: 8vh;
+  margin-bottom: 4vh;
+  margin-left: 2vw;
+  border-radius: 3vw;
+  box-shadow: 0 0 9px 5px rgba(0,0,0,0.2);
+
+  display: flex;
+  align-items: center;
+}
+
+h3{
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  margin-left: 5vw;
+}
+
+#addProject{
+  background-image: url("../img/plusButton.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  position: relative;
+  width: 15vw;
+  height: 8vh;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+
+#addProject_link {
+  position: relative;
+  width: 15vw;
+  height: 8vh;
+}
+
+#logout{
+  position: relative;
+  width: 2vw;
+  height: 1vh;
+  margin: 1vw;
+}

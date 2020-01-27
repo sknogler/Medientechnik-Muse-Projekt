@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+
+body{
+  text-align: center;
+}
+.loginForm{
+  position: relative;
+  height: 40vh;
+  width: 20vw;
+  border: 2px solid black;
+  border-radius: 2vw;
+  margin-left: 40vw;
+  margin-top: 30vh;
+  padding-top: 1vh;
+}
+.login{
+  position: relative;
+  margin-top: 6vh;
+}
+.login p {
+  margin-top: 3vh;
+}
+.login input{
+  border: 1px solid black;
+  border-radius: 2vw;
+}
+.login input[type="Submit"]{
+  width: 10vw;
+  border: 1px solid black;
+  border-radius: 2vw;
+  padding: 0.3vw;
+}
+.login input[type="password"]{
+  margin-bottom: 6vh;
+}
+
+h1{
+  margin-top: 20vh;
+}
+a{
+  text-decoration: none;
+  color: black;
+}

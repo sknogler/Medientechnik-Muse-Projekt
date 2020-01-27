@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.backButton{
+  position: relative;
+  width: 4vw;
+
+  left: 50vw;
+  top: -4vh;
+}
+
+#uploadForm{
+  display: flex;
+}
+
+#readProjects{
+  position: relative;
+  margin-left: 40vw;
+  margin-top: -50vh;
+}
+
+table{
+  width: 20vw;
+  height: 20vh;
+}
+
+.container{
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+
+  background-color: lightgray;
+}
+
+.projectContainer{
+  position: relative;
+  width: 20vw;
+  height: 90vh;
+}
+
+h5{
+  margin-bottom: 1vh;
+}
